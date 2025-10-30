@@ -8,15 +8,15 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <section className="container mx-auto px-6 py-16">
-      <div className="border-t-2 border-b-2 border-foreground py-12">
-        <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+    <section className="container mx-auto px-6 py-6">
+      <div className="border-t-2 border-b-2 border-foreground py-6">
+        <div className="grid md:grid-cols-3 gap-6 md:gap-8">
           {benefits.map((benefit, index) => (
             <div key={index} className="flex items-start gap-4">
               <div className="flex-shrink-0 w-8 h-8 rounded-full bg-accent flex items-center justify-center">
                 <Check className="w-5 h-5 text-accent-foreground" />
               </div>
-              <p className="text-lg md:text-xl font-medium pt-1">{benefit}</p>
+              <p className="text-base md:text-lg font-medium pt-1">{benefit}</p>
             </div>
           ))}
         </div>
