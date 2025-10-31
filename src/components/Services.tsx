@@ -1,6 +1,4 @@
-import { Laptop, Globe, Bot, ChevronDown } from "lucide-react";
-import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible";
-import { useState } from "react";
+import { Laptop, Globe, Bot } from "lucide-react";
 
 interface ServiceData {
   id: string;
@@ -55,8 +53,6 @@ const services: ServiceData[] = [
 ];
 
 const ServiceCard = ({ service }: { service: ServiceData }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <div className="border-2 border-foreground rounded-lg p-6 bg-card flex flex-col">
       <div className="w-12 h-12 rounded-lg border-2 border-foreground flex items-center justify-center mb-4">
@@ -74,17 +70,7 @@ const ServiceCard = ({ service }: { service: ServiceData }) => {
         ))}
       </ul>
 
-      <Collapsible open={isOpen} onOpenChange={setIsOpen}>
-        <div className="border-t-2 border-dashed border-foreground pt-4">
-          <CollapsibleTrigger className="flex items-center justify-between w-full hover:opacity-70 transition text-left">
-            <span className="font-medium text-sm">{service.expandedTitle}</span>
-            <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
-          </CollapsibleTrigger>
-          <CollapsibleContent className="pt-4">
-            <p className="text-xs text-muted-foreground">{service.expandedContent}</p>
-          </CollapsibleContent>
-        </div>
-      </Collapsible>
+      <p className="text-xs text-muted-foreground mt-4">{service.expandedContent}</p>
     </div>
   );
 };
