@@ -1,29 +1,28 @@
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import problemsImage from "@/assets/problems-illustration.png";
 
 const problems = [
-  "Something's always broken—because tech is fragile. And you're not an engineer.",
-  "You keep getting locked out of accounts. Where is that password again?",
-  "And your new hire needs to be set up with 47 different apps."
+  "You're on a job. Phone rings. You can't answer. Customer calls the next guy on Google. You just lost $3,500.",
+  "You're with a customer. Phone rings twice. By the time you call back 3 hours later, they \"already found someone.\" Another $2,800 gone.",
+  "It's 7pm on a Thursday. Voicemail full. Emergency call goes unanswered. They're booking with your competitor at 7:03pm while you're having dinner."
 ];
 
 const Problems = () => {
   return (
     <section className="container mx-auto px-6 py-20">
       <div className="grid md:grid-cols-2 gap-12 items-center">
-        <div className="order-2 md:order-1">
-          <img 
-            src={problemsImage} 
-            alt="Frustrated person dealing with technical problems at their computer"
-            className="w-full h-auto"
+        <div className="order-2 md:order-1 flex justify-center">
+          <img
+            src="/problem-img.png"
+            alt="Missed call problems for trades businesses"
+            className="w-full max-w-md"
           />
         </div>
         
         <div className="order-1 md:order-2 space-y-8">
           <div>
             <p className="text-sm uppercase tracking-wider mb-2 text-muted-foreground">
-              You're a growing business.
+              You're running a good business.
             </p>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
               But your day-to-day has some of this BS in it:
@@ -43,7 +42,7 @@ const Problems = () => {
 
           <div className="pt-4">
             <p className="text-xl md:text-2xl font-medium mb-6">
-              Imagine if you could delegate all these issues to a genie?
+              Imagine if every single one of those calls got handled in 5 seconds?
             </p>
             <Button variant="outline" size="lg">
               Get a free trial

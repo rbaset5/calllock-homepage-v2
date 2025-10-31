@@ -38,14 +38,15 @@ All colors MUST be HSL.
 
     --radius: 1rem;
 
-    --gradient-rainbow: linear-gradient(90deg, 
-      hsl(0, 100%, 50%), 
-      hsl(30, 100%, 50%), 
-      hsl(60, 100%, 50%), 
-      hsl(120, 100%, 50%), 
-      hsl(180, 100%, 50%), 
-      hsl(240, 100%, 50%), 
-      hsl(300, 100%, 50%)
+    --gradient-rainbow: linear-gradient(90deg,
+      hsl(320, 70%, 70%),
+      hsl(10, 75%, 70%),
+      hsl(45, 80%, 70%),
+      hsl(60, 75%, 70%),
+      hsl(100, 65%, 70%),
+      hsl(180, 70%, 70%),
+      hsl(240, 75%, 70%),
+      hsl(280, 70%, 70%)
     );
   }
 

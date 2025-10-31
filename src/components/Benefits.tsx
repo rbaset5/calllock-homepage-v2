@@ -1,9 +1,9 @@
 import { Check } from "lucide-react";
 
 const benefits = [
-  "Less problems, more productivity",
-  "Your team runs smoother",
-  "A hundred things less on your plate"
+  "Less missed calls, more booked jobs",
+  "Your phone works for you now",
+  "Revenue you didn't know you were losing"
 ];
 
 const Benefits = () => {
