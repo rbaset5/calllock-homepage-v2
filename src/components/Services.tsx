@@ -21,7 +21,7 @@ const services: ServiceData[] = [
       "Unlimited conversations (no per-message fees)"
     ],
     expandedTitle: "+ What makes it different",
-    expandedContent: "📱 You win the emergency jobs: Flooding at midnight? You respond in 8 seconds. Competitor responds tomorrow morning. You get the $4,500 job. ⏰ After-hours = highest-margin work: Emergency calls happen at 7pm, weekends, holidays. You're the only one available. ⚡ Speed kills competition: While their voicemail plays, your text is already asking \"What's the emergency?\" 🔧 No bandwidth tax: You don't check an app. You don't monitor anything. It just works."
+    expandedContent: ""
   },
   {
     id: "it-support",
