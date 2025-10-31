@@ -35,7 +35,7 @@ const services: ServiceData[] = [
       "Searchable lead database"
     ],
     expandedTitle: "+ The intelligence layer",
-    expandedContent: "You see urgency + pricing tier instantly: \"Water heater leaking—Emergency—Springfield—ASAP\" = you know it's a 95% close at 2x pricing before you even call back. Price shoppers filtered out: \"Just need a quote for future project\" = flagged as 20% conversion, bottom of callback list. Saves you 30 min of phone tag. Route planning built-in: Address + service area validation means you never waste gas on \"oh sorry, I'm actually in Worcester\" calls. Priority ranking: When you have 12 missed calls, you see the $8K emergency first, the $400 estimate last. Call back in order of revenue, not chronology. Timing intel: \"Tomorrow afternoon works\" means 80% higher first-call booking rate than going in blind. Multi-service capture: Customer needs \"furnace repair + water heater quote\" → you arrive prepared, upsell on-site, close both jobs."
+    expandedContent: ""
   },
   {
     id: "website-domain",
@@ -48,7 +48,7 @@ const services: ServiceData[] = [
       "Monthly performance reports"
     ],
     expandedTitle: "+ The automation magic",
-    expandedContent: "Instant SMS alert (tap to call). Full email brief with conversation history. Auto-syncs to your CRM. Priority levels (Emergency/Urgent/Routine). One-click callback buttons. Multi-channel delivery (SMS + Email + CRM + Slack)."
+    expandedContent: ""
   }
 ];
 
