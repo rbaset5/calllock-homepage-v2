@@ -8,6 +8,7 @@ import Services from "@/components/Services";
 import ValueProposition from "@/components/ValueProposition";
 import Solutions from "@/components/Solutions";
 import FAQ from "@/components/FAQ";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
         <Solutions />
         <FAQ />
       </main>
+      <Footer />
     </div>
   );
 };

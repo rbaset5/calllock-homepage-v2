@@ -13,20 +13,16 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "So is this an MSP?",
-    answer: "No. We're not managing your computers, servers, or network. We're solving one specific problem: missed calls. Think of us as your after-hours front desk that works 24/7 to make sure every call turns into a booked job."
+    question: "Does this work with ServiceTitan/Housecall Pro/[my specific software]?",
+    answer: "Yeah. We integrate with whatever calendar you're using - Google, ServiceTitan, Housecall Pro, all of them. Appointments show up like you booked them yourself."
   },
   {
-    question: "What if I have more than 50 people?",
-    answer: "CallLock is built specifically for small trades businesses—typically 1-10 people. If you're running a larger operation, our system is designed for the solo operator or small crew that can't afford to miss calls while they're on job sites."
+    question: "What's the contract length and can I cancel if it doesn't work out?",
+    answer: "Month-to-month. Cancel anytime with 30 days notice. No setup fees."
   },
   {
-    question: "Is there a trial?",
-    answer: "Yes. We offer a 30-day money-back guarantee. If you don't see recovered revenue from previously missed calls in the first month, we'll refund you in full. No questions asked."
-  },
-  {
-    question: "Do you manage cybersecurity?",
-    answer: "No. We focus exclusively on missed call recovery and lead qualification. We're not an IT company—we're a conversion tool that turns missed calls into booked jobs."
+    question: "What happens if the customer has a complex question the AI can't handle?",
+    answer: "It hands off to you. Says \"That needs [your name]'s expertise - can I have them call you?\" You get notified immediately. Lead captured, nobody frustrated."
   }
 ];
 
