@@ -13,12 +13,12 @@ const services: ServiceData[] = [
   {
     id: "automation-ai",
     icon: <Bot className="w-6 h-6" />,
-    title: "Instant Response & Qualification",
+    title: "Instant Callback & Booking",
     items: [
-      "5-second SMS response to every missed call",
-      "AI-powered qualification conversations (using Claude 3.5 Sonnet)",
-      "Extracts service type, urgency, location, problem description, and preferred timing",
-      "Unlimited conversations (no per-message fees)"
+      "5-second voice callback to every missed call",
+      "Natural conversation that qualifies and books (not a robotic IVR)",
+      "Extracts service type, urgency, location, and books the appointment",
+      "Works with your existing calendar"
     ],
     expandedTitle: "+ What makes it different",
     expandedContent: ""
@@ -26,13 +26,13 @@ const services: ServiceData[] = [
   {
     id: "it-support",
     icon: <Laptop className="w-6 h-6" />,
-    title: "Lead Management",
+    title: "Appointment Management",
     items: [
-      "Structured lead data delivered to Google Sheets",
-      "Full conversation history for every lead",
-      "Instant SMS to owner with complete lead details (name, phone, service type, urgency, location)",
-      "Duplicate call prevention",
-      "Searchable lead database"
+      "Booked appointments delivered directly to your calendar",
+      "Full conversation summary for every booking",
+      "Instant SMS to you with appointment details (customer name, service type, time)",
+      "Handles rescheduling and cancellations",
+      "Searchable booking history"
     ],
     expandedTitle: "+ The intelligence layer",
     expandedContent: ""
@@ -43,7 +43,7 @@ const services: ServiceData[] = [
     title: "Setup & Support",
     items: [
       "48-hour implementation (done-for-you)",
-      "Custom script configuration (business name, service types, service areas)",
+      "Custom conversation setup (business name, service types, service areas, availability)",
       "Technical support (2-hour response during business hours)",
       "Monthly performance reports"
     ],

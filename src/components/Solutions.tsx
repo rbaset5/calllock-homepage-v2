@@ -2,11 +2,11 @@ import { Separator } from "@/components/ui/separator";
 
 const Solutions = () => {
   const benefits = [
-    "Capture before competitors answer — 5-second response vs their 30-60 seconds",
-    "Call back with context, not guessing — Service type, urgency, location already extracted",
+    "Capture before competitors answer — 5-second callback vs their 30-60 seconds",
+    "Show up ready to work, not sell — Appointment already booked with service details",
     "Zero technical work required — 48-hour done-for-you setup, we handle everything",
-    "Intelligence advantage on every callback — Full conversation history + structured data",
-    "Works 24/7, even when you don't — Emergency at 11pm? Qualified and waiting for you in the morning"
+    "Intelligence advantage on every job — Full conversation history + customer context",
+    "Works 24/7, even when you don't — Emergency at 11pm? Booked and waiting for you in the morning"
   ];
 
   return (
@@ -19,7 +19,7 @@ const Solutions = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Your phone rings. We qualify. You close.
+              Your phone rings. We book. You close.
             </h2>
 
             <ul className="space-y-4">
@@ -52,9 +52,7 @@ const Solutions = () => {
 
           <div className="flex-1 space-y-6">
             <p className="text-xl md:text-2xl leading-relaxed">
-              Or... keep letting calls go to voicemail and hoping they'll wait.
-              You could capture every lead before competitors even answer — or keep
-              losing jobs to the guy who texts back in 10 seconds.
+              You could capture every lead and book them before competitors even answer—or keep losing jobs to the guy who picks up in 10 seconds.
             </p>
           </div>
         </div>

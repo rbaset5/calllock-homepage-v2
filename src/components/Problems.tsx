@@ -42,7 +42,7 @@ const Problems = () => {
 
           <div className="pt-4">
             <p className="text-xl md:text-2xl font-medium mb-6">
-              Imagine if every single one of those calls got handled in 5 seconds?
+              Imagine if every single one of those calls got answered and booked—automatically?
             </p>
             <Button variant="outline" size="lg">
               Get a free trial

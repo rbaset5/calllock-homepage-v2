@@ -4,12 +4,12 @@ import { Separator } from "@/components/ui/separator";
 
 const ValueProposition = () => {
   const benefits = [
-    "⚡ Instant response to every missed call (5 seconds guaranteed)",
-    "📱 Owner SMS alerts with qualified lead details (no need to check sheets)",
-    "🤖 AI qualification (service type, urgency, location, timing)",
-    "💬 Unlimited conversations included",
-    "📊 Google Sheets storage with full history",
-    "🔧 Technical support + monthly AI improvements",
+    "⚡ Instant callback to every missed call (5 seconds guaranteed)",
+    "📱 Owner SMS alerts with booked appointment details",
+    "🤖 Natural conversation that qualifies and books",
+    "📅 Appointments on your calendar—no manual entry",
+    "💬 Unlimited calls included",
+    "🔧 Technical support + monthly improvements",
     "📈 Performance monitoring + reports",
     "🛡️ TCPA compliance built-in",
     "💰 One-time: 48-hour setup, 30-day guarantee"

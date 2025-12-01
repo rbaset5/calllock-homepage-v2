@@ -9,14 +9,14 @@ const Hero = () => {
             Every missed call is a customer calling your competitor instead.
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl">
-            You're losing jobs while you're on another call, on a job site, or just trying to eat lunch. That's money walking out the door. We stop that.
+            You're losing jobs while you're on another call, on a job site, or just trying to eat lunch. That's money walking out the door. We call them back in 5 seconds and book the appointment for you.
           </p>
           <div className="space-y-4">
             <Button variant="outline" size="lg">
               Let us prove it*
             </Button>
             <p className="text-sm text-muted-foreground">
-              *Give us your worst week. The one where you're slammed and can't get to the phone. We'll show you exactly how many of those "missed opportunities" we can recover.
+              *Give us your worst week. The one where you're slammed and can't get to the phone. We'll show you exactly how many of those "missed opportunities" we can turn into booked jobs.
             </p>
           </div>
         </div>
