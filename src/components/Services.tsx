@@ -15,8 +15,8 @@ const services: ServiceData[] = [
     icon: <Bot className="w-6 h-6" />,
     title: "Instant Callback & Booking",
     items: [
-      "5-second voice callback to every missed call",
-      "Natural conversation that qualifies and books (not a robotic IVR)",
+      "5-second callback—before they've finished dialing your competitor",
+      "Natural conversation that books the job (not a robotic phone tree)",
       "Extracts service type, urgency, location, and books the appointment",
       "Works with your existing calendar"
     ],

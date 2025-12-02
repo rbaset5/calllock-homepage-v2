@@ -2,7 +2,7 @@ import { Separator } from "@/components/ui/separator";
 
 const Solutions = () => {
   const benefits = [
-    "Capture before competitors answer — 5-second callback vs their 30-60 seconds",
+    "They'll call someone else in under 60 seconds. We answer in 5. Do the math.",
     "Show up ready to work, not sell — Appointment already booked with service details",
     "Zero technical work required — 48-hour done-for-you setup, we handle everything",
     "Intelligence advantage on every job — Full conversation history + customer context",

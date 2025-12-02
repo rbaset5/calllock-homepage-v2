@@ -9,7 +9,7 @@ const Hero = () => {
             Every missed call is a customer calling your competitor instead.
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl">
-            You're losing jobs while you're on another call, on a job site, or just trying to eat lunch. That's money walking out the door. We call them back in 5 seconds and book the appointment for you.
+            The average homeowner dials the next guy on Google in under 60 seconds. By the time you call back, they've "already found someone." We respond in 5 seconds and book the appointment before they've finished hanging up.
           </p>
           <div className="space-y-4">
             <Button variant="outline" size="lg">
